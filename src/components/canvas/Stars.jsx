@@ -5,7 +5,18 @@ import * as random from "maath/random/dist/maath-random.esm";
 
 const Stars = (props) => {
   const ref = useRef();
-  const [sphere] = useState(() => random.inSphere(new Float32Array(5000), { radius: 1.2 }));
+  const [sphere] = useState(() => {
+    const arr = new Float32Array(5000);
+    for (let i = 0; i < arr.length; i += 3) {
+      const r = 1.2 * Math.cbrt(Math.random());
+      const theta = Math.random() * 2 * Math.PI;
+      const phi = Math.acos(2 * Math.random() - 1);
+      arr[i] = r * Math.sin(phi) * Math.cos(theta);
+      arr[i + 1] = r * Math.sin(phi) * Math.sin(theta);
+      arr[i + 2] = r * Math.cos(phi);
+    }
+    return arr;
+  });
 
   useFrame((state, delta) => {
     ref.current.rotation.x -= delta / 10;
