@@ -43,10 +43,10 @@ const CV = () => {
             </motion.a>
           </Tilt>
         </div>
-        <Tilt className="w-[900px] my-10">
+        <Tilt className="md:w-[900px] my-10">
           <motion.div
             variants={fadeIn("up", "spring", 0.3, 0.75)}
-            className="w-[900px]  h-[350px] bg-gradient-to-br from-primary to-secondary rounded-2xl flex items-center justify-center shadow-2xl border-4 border-white/10 hover:scale-105 transition-transform duration-300"
+            className="md:w-[900px]  h-[350px] bg-gradient-to-br from-primary to-secondary rounded-2xl flex items-center justify-center shadow-2xl border-4 border-white/10 hover:scale-105 transition-transform duration-300"
           >
             <img src="/CV.png" alt="CV" className="object-fill p-3 w-full h-full rounded-2xl shadow-lg" />
           </motion.div>
