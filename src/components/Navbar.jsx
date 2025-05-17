@@ -42,7 +42,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-       {/* <img src="1.png" alt='logo' className='h-14 w-14 rounded-full object-fill' /> */}
+       <img src="11.png" alt='logo' className='h-14 w-14 rounded-full object-fill' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
           Abdullah &nbsp;
             <span className='sm:block hidden'> |  Web Developer</span>
