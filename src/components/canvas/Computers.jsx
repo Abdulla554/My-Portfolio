@@ -53,6 +53,10 @@ const ComputersCanvas = () => {
     };
   }, []);
 
+  useEffect(() => {
+    console.log("isMobile:", isMobile);
+  }, [isMobile]);
+
   return (
     <Canvas
       frameloop='demand'
