@@ -26,13 +26,13 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary  p-2 rounded-2xl sm:w-[360px] w-full min-h-[500px] flex flex-col"
       >
-        <div className="relative w-full h-[230px]">
+        <div className="relative w-full h-[250px]">
           <img
             src={image}
             alt="project_image"
-            className="w-full h-full object-cover rounded-2xl"
+            className="w-full  h-full object-contain rounded-2xl"
           />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
@@ -47,11 +47,21 @@ const ProjectCard = ({
         </div>
 
         <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px]">{description}</p>
+          <h3 className="text-white font-bold text-[20px]">{name}</h3>
+          <p
+            style={{
+              display: "-webkit-box",
+              WebkitLineClamp: 2,
+              WebkitBoxOrient: "vertical",
+              overflow: "hidden",
+            }}
+            className="mt-2 text-secondary text-[14px]"
+          >
+            {description}
+          </p>
         </div>
 
-        <div className="my-6 flex flex-wrap gap-2">
+        <div className="my-6 flex items-center justify-center flex-wrap gap-2">
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
@@ -62,7 +72,7 @@ const ProjectCard = ({
           ))}
         </div>
 
-        <div className="flex gap-6">
+        <div className="flex gap-4 items-center justify-between px-2 md:px-0">
           <motion.a
             whileHover={{
               scale: 1.12,
@@ -89,6 +99,7 @@ const ProjectCard = ({
             />
             View Live
           </motion.a>
+          {admin_link && (
           <motion.a
             whileHover={{
               scale: 1.12,
@@ -103,8 +114,9 @@ const ProjectCard = ({
             className="flex items-center gap-2 px-3 py-2 rounded-lg bg-fuchsia-600 hover:bg-fuchsia-700 text-white font-semibold shadow-lg transition"
           >
             <FaDatabase />
-            Admin Panel
-          </motion.a>
+              Admin Panel
+            </motion.a>
+          )}
         </div>
       </Tilt>
     </motion.div>
@@ -129,7 +141,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex flex-wrap gap-7 items-stretch">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
