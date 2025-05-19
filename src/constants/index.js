@@ -115,7 +115,6 @@ const technologies = [
 ];
 
 const experiences = [
-  
   {
     title: "Front-End Developer (Internship)",
     company_name: "IQ Dev House",
@@ -141,9 +140,8 @@ const experiences = [
       "Distributing tasks and ensuring timely project delivery.",
       "Leading client sales presentations with visual prototypes to build trust and clarify project benefits.",
     ],
-  }
+  },
 ];
-
 
 const testimonials = [
   {
@@ -173,6 +171,52 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "The PowerZone",
+    description:
+      "Full-stack enterprise solution with React frontend, NestJS backend, and comprehensive admin dashboard",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nestjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/9.png",
+    source_code_link: "https://github.com/",
+    live_link: "https://powerzonesolarenergy.com/",
+    admin_link: "https://dashboard.powerzonesolarenergy.com/",
+  },
+  {
+    name: "Jawharat Al-Tabieih Company",
+    description:
+      " Full-stack beauty company website with modern UI, featuring product management, client services, and an advanced admin dashboard.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nestjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/10.png",
+    source_code_link: "https://github.com/",
+    live_link: "https://www.jawharataltabeeaa.com.iq/",
+    admin_link: "https://al-tabieih-dashboard.vercel.app/",
+  },
   {
     name: "ALKHEBRA Technology Company",
     description:
@@ -252,7 +296,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "nestjs",
+        name: "framer-motion",
         color: "green-text-gradient",
       },
       {
@@ -265,7 +309,7 @@ const projects = [
     live_link: "https://alreefalakdar.iq/",
     admin_link: "",
   },
-   
+
   {
     name: "Malekatal Fadi Company",
     description:
@@ -276,7 +320,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "nestjs",
+        name: "framer-motion",
         color: "green-text-gradient",
       },
       {
@@ -299,7 +343,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "nestjs",
+        name: "framer-motion",
         color: "green-text-gradient",
       },
       {
@@ -312,64 +356,18 @@ const projects = [
     live_link: "https://sardar.iq/",
     admin_link: "",
   },
-  {
-    name: "The PowerZone",
-    description:
-      "Full-stack enterprise solution with React frontend, NestJS backend, and comprehensive admin dashboard",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nestjs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: "/9.png",
-    source_code_link: "https://github.com/",
-    live_link: "https://powerzonesolarenergy.com/",
-    admin_link: "https://dashboard.powerzonesolarenergy.com/",
-  },
-   
-  {
-    name: "Jawharat Al-Tabieih Company",
-    description:
-      " ",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nestjs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: "/10.png",
-    source_code_link: "https://github.com/",
-    live_link: "https://www.jawharataltabeeaa.com.iq/",
-    admin_link: "https://al-tabieih-dashboard.vercel.app/",
-  },
+
   {
     name: "Points",
     description:
-      "  ",
+      " creative advertising company website showcasing branding-focused signage, modern LED displays, and impactful visual solutions. ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "nestjs",
+        name: "framer-motion",
         color: "green-text-gradient",
       },
       {
@@ -380,19 +378,19 @@ const projects = [
     image: "/12.png",
     source_code_link: "https://github.com/",
     live_link: "https://pointsads.com/",
-    admin_link: " ",
+    admin_link: "",
   },
   {
     name: "Ain Al-Qanoon",
     description:
-      " ",
+      "Elegant law firm website introducing legal services, practice areas, and the firm’s strengths in handling complex cases. ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "nestjs",
+        name: "framer-motion",
         color: "green-text-gradient",
       },
       {
@@ -408,14 +406,14 @@ const projects = [
   {
     name: "karat-Almashrk",
     description:
-      "Business website with modern design, responsive layouts and optimized performance ",
+      "Construction and contracting company website with modern UI, showcasing services, project highlights, and contact sections ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "nestjs",
+        name: "framer-motion",
         color: "green-text-gradient",
       },
       {
@@ -431,14 +429,14 @@ const projects = [
   {
     name: "Beirut-Road",
     description:
-      "  ",
+      " Professional construction company site featuring modern design, service listings, and real project showcases ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "nestjs",
+        name: "framer-motion",
         color: "green-text-gradient",
       },
       {
@@ -450,36 +448,7 @@ const projects = [
     source_code_link: "https://github.com/",
     live_link: "http://beirutroad.iq/",
     admin_link: "",
-  }, 
-
-
-
-
-
-
-  {
-    name: "Car-Rental",
-    description:
-      " ",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nestjs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: "/7.png",
-    source_code_link: "https://github.com/",
-    live_link: "https://malekatal-fadicompany.com.iq/",
-    admin_link: "",
-  }
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
