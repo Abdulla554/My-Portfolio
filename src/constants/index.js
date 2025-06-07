@@ -400,7 +400,7 @@ const projects = [
     ],
     image: "/13.png",
     source_code_link: "https://github.com/",
-    live_link: "https://ain-al-qanoon2-devhosue.vercel.app/",
+    live_link: "https://ainfirmainalqanoon.iq/",
     admin_link: "",
   },
   {
