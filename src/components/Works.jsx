@@ -19,7 +19,7 @@ const ProjectCard = ({
   admin_link,
 }) => {
   return (
-    <motion.div>
+    <motion.div >
       <Tilt
         options={{
           max: 45,
@@ -126,9 +126,9 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div>
+      <motion.div id="projects" >
         <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <h2  className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
       <div className="w-full flex">

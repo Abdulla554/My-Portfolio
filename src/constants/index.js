@@ -35,6 +35,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "projects",
+    title: "Projects",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -172,6 +176,29 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Fawz-albasra",
+    description:
+      "Fawz Al-Basra: Specialized distributor of medical devices, therapeutic equipment, and hospital supplies for the healthcare sector.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nestjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/16.png",
+    source_code_link: "https://github.com/",
+    live_link: "https://fawz-albasra.vercel.app/",
+    admin_link: "https://fawz-dash.vercel.app/home",
+  },
+  {
     name: "The PowerZone",
     description:
       "Full-stack enterprise solution with React frontend, NestJS backend, and comprehensive admin dashboard",
@@ -264,6 +291,29 @@ const projects = [
     admin_link: "https://panel.sanabel-aldiwan.iq/",
   },
   {
+    name: "Bait Al-yarmouk",
+    description:
+      "Bayt Al-Yarmouk: Importer of original-brand electrical appliances from certified sources",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nestjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/17.png",
+    source_code_link: "https://github.com/",
+    live_link: "https://www.baitalyarmouk.iq/",
+    admin_link: "https://baitalyarmouk-dash.vercel.app/",
+  },
+  {
     name: "Al-Mas",
     description:
       "Full-stack enterprise solution with React frontend, NestJS backend",
@@ -309,7 +359,6 @@ const projects = [
     live_link: "https://alreefalakdar.iq/",
     admin_link: "",
   },
-
   {
     name: "Malekatal Fadi Company",
     description:
@@ -356,7 +405,6 @@ const projects = [
     live_link: "https://sardar.iq/",
     admin_link: "",
   },
-
   {
     name: "Points",
     description:
